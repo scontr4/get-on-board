@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "module": "commonjs",
+      "types": ["jest"],
+      "noEmit": true 
+    }
+  }
+  
