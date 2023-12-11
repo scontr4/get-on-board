@@ -1,7 +1,7 @@
-export const Header: React.FC<Props> = () => {
+export const Header: React.FC = () => {
   return (
     <header className="header">
-      <h1>To Do's</h1>
+      <img src="../public/TodosHeader.png" alt="todos" />
     </header>
   )
 }
