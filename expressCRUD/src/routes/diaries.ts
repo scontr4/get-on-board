@@ -51,13 +51,13 @@ router.put('/:id', (req, res) => {
 export default router
 
 
-// // Delete
-// router.delete('/:id', (req, res) => {
-//     const diary = diaryServices.findById(+req.params.id)
-//     if (diary) {
-//         diaryServices.deleteDiary(+req.params.id)
-//         res.sendStatus(204)
-//     } else {
-//         res.sendStatus(404)
-//     }
-// })
+// Delete
+router.delete('/:id', (req, res) => {
+    const diary = diaryServices.findById(+req.params.id)
+    if (diary) {
+        diaryServices.deleteDiary(+req.params.id)
+        res.sendStatus(204)
+    } else {
+        res.sendStatus(404)
+    }
+})

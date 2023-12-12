@@ -46,9 +46,9 @@ export const updateDiary = (newDiaryEntry: DiaryEntry): DiaryEntry => {
     return diaries[index]
 }
 
-// export const deleteDiary = (id: number): void => {
-//     const index = diaries.findIndex(d => d.id === id)
-//     if (index !== -1) {
-//         diaries.splice(index, 1)
-//     }
-// }
+export const deleteDiary = (id: number): void => {
+    const index = diaries.findIndex(d => d.id === id)
+    if (index !== -1) {
+        diaries.splice(index, 1)
+    }
+}
